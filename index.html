@@ -1,5 +1,21 @@
 <html>
 <head>
+    <style>
+    a:link, a:visited {
+        background-color: white;
+         color: black;
+         border: 2px solid green;
+         padding: 10px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+    }
+
+    a:hover, a:active {
+        background-color: green;
+        color: white;
+}
+</style>
     <title>Pacmen</title>
 </head>
 
@@ -7,7 +23,7 @@
     <div id='game'>
         <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
         <button onclick='update()' width='200' height='30'>Start Game</button>
-        <a href='https://github.com/ArchangeLillith/PacMan-Project'>GitHub Repository</a>
+        <a style='href='https://github.com/ArchangeLillith/PacMan-Project'>GitHub Repository</a>
     </div>
 
     <script src="pacmen.js"></script>
