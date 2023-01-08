@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ArchangeLillith/PacMan-Project">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">PacMan Project</h3>
